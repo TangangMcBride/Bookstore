@@ -9,11 +9,12 @@ const app = express();
 //Middleware for parsing request body
 app.use(express.json());
 //Middleware for handling CORS POLICY
-app.use(cors({
-  origin:'http://localhost:5555',
-  methods: ['GET','POST','PUT','DELETE'],
-  allowedHeadersaa :['Content-Type']
-}));
+app.use(cors());
+// app.use(cors({
+//   origin:'http://localhost:5555',
+//   methods: ['GET','POST','PUT','DELETE'],
+//   allowedHeadersaa :['Content-Type']
+// }));
 
 app.get("/", (req, res) => {
   console.log(req);
