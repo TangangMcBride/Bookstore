@@ -8,9 +8,9 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tangang Mc Bride",
   "license": "ISC",
-  "description": "",
+  "description": "Books FullStack Mern APP",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.0",
